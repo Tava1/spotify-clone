@@ -1,0 +1,82 @@
+.payments {
+  margin: 3em 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .payments {
+    width: 1200px;
+    margin: 3em auto;
+  }
+}
+
+.payments .payment-container {
+  grid-column: span 12;
+}
+
+@media screen and (min-width: 1200px) {
+  .payments .payment-container {
+    grid-column: span 4;
+  }
+}
+
+.payments .payment-container h5 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.payments .payment-container .payment-box {
+  background-color: #fff;
+  margin: 0 auto;
+  height: 270px;
+  width: 270px;
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 0px 10px rgba(68, 68, 68, 0.39);
+          box-shadow: 0px 0px 10px rgba(68, 68, 68, 0.39);
+  padding: 1em;
+}
+
+.payments .payment-container .payment-box .payment-box-context h6 {
+  font-size: 0.90em;
+  margin: 7px 0;
+}
+
+.payments .payment-container .payment-box .payment-box-context p {
+  margin: 0;
+  font-size: 0.75em;
+  font-weight: 100;
+  line-height: 1.5;
+  position: relative;
+  bottom: 0;
+}
+
+.payments .payment-container .payment-box .payment-box-context .payment-methods {
+  margin: 0.45em 0;
+}
+
+.payments .payment-container .payment-box .payment-box-context .payment-methods img {
+  width: 30px;
+}
+
+.payments .payment-container .payment-box .payment-box-context .payment-plan {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #868686;
+  margin: 0.35em 0;
+  font-size: 0.80em;
+  padding: 0.75em 0;
+}
+
+.payments .payment-container .payment-box .payment-box-context .btn-payment-method {
+  margin: 10px 0;
+  background-color: #1db954;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width: 100%;
+}
+
+.payments .payment-container .payment-box .payment-box-context .btn-payment-method:hover {
+  background-color: #1ED760;
+}
+/*# sourceMappingURL=payment.css.map */

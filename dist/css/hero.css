@@ -1,0 +1,74 @@
+.bg-premium-page {
+  background-color: #f037a5;
+}
+
+.bg-premium-page .premium-hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2em 1em;
+  padding-top: 3em;
+}
+
+@media screen and (min-width: 1200px) {
+  .bg-premium-page .premium-hero {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 1000px;
+    margin: 0 auto;
+  }
+}
+
+.bg-premium-page .premium-hero .premium-page-context {
+  font-family: 'Roboto', sans-serif;
+}
+
+.bg-premium-page .premium-hero .premium-page-context h3 {
+  margin: 1em 0.50;
+  font-size: 3.50em;
+}
+
+.bg-premium-page .premium-hero .premium-page-context p {
+  font-size: 1.50em;
+  font-weight: 500;
+}
+
+.bg-premium-page .premium-hero .premium-page-context button {
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  width: 100%;
+  margin-top: 2em;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 900px) {
+  .bg-premium-page .premium-hero .premium-page-context button {
+    width: 200px;
+  }
+}
+
+.bg-premium-page .premium-hero .premium-page-context-image img {
+  width: 390px;
+  margin: 5em 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .bg-premium-page .premium-hero .premium-page-context-image img {
+    width: 450px;
+  }
+}
+/*# sourceMappingURL=hero.css.map */

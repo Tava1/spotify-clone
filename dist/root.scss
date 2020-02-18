@@ -1,0 +1,23 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+.title-section {
+  text-align: center;
+  margin: 6em 2em 4em 2em;
+  h3 {
+    font-size: 2em;
+    margin: 0;
+  }
+  p {
+    font-size: 0.75em;
+  }
+}
+button {
+  border: none;
+  border-radius: 500px;
+  padding: 17px 45px;
+  cursor: pointer;
+  font-weight: 700;
+  margin: 0;
+  
+}

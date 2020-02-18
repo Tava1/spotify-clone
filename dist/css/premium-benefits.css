@@ -1,0 +1,97 @@
+.benefits {
+  margin: 5em 0;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .benefits {
+    width: 700px;
+    margin: 3em auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .benefits {
+    width: 1200px;
+    margin: 3em auto;
+  }
+}
+
+.benefits h3 {
+  margin: 1.50em 0;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 900;
+}
+
+@media screen and (min-width: 768px) {
+  .benefits h3 {
+    font-size: 2.50em;
+  }
+}
+
+.benefits .benefits-container .benefits-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px 1em;
+  grid-column: span 12;
+}
+
+@media screen and (min-width: 768px) {
+  .benefits .benefits-container .benefits-block {
+    grid-column: span 6;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .benefits .benefits-container .benefits-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    grid-column: span 3;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 2em;
+  }
+}
+
+.benefits .benefits-container .benefits-block img {
+  width: 100px;
+  margin: 0 0 1em 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .benefits .benefits-container .benefits-block img {
+    width: 155px;
+  }
+}
+
+.benefits .benefits-container .benefits-block .benefits-context {
+  margin: 0 1em;
+}
+
+@media screen and (min-width: 1200px) {
+  .benefits .benefits-container .benefits-block .benefits-context {
+    margin: 0;
+    text-align: center;
+  }
+}
+
+.benefits .benefits-container .benefits-block .benefits-context h4 {
+  margin: 10px 0;
+  font-size: 21px;
+}
+
+.benefits .benefits-container .benefits-block .benefits-context p {
+  margin: 0;
+}
+/*# sourceMappingURL=premium-benefits.css.map */
